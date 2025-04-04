@@ -1,6 +1,6 @@
 {
   "name": "bogdan-aircall-everywhere",
-  "version": "2.0.0-beta.7",
+  "version": "2.0.0-beta.8",
   "description": "Library to embed and communicate with aircall-workspace in any webpage",
   "main": "dist/index.js",
   "scripts": {
