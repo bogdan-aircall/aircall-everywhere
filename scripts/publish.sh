@@ -1,10 +1,8 @@
 #!/bin/bash
 
-npx webpack --config scripts/webpack/webpack.publish.js
+npx webpack --config scripts/webpack/webpack.docs.js
+npx webpack --config scripts/webpack/webpack.docs.v2.js
 
 # deploy doc to gh-pages
-gh-pages -d demo_dist
+npx gh-pages -d demo_dist
 
-# deploy tests to gh-pages
-npm run coverage
-gh-pages -d coverage -e tests
