@@ -1,5 +1,5 @@
 {
-  "name": "test-aircall-everywhere",
+  "name": "aircall-everywhere",
   "version": "2.0.0-beta.7",
   "description": "Library to embed and communicate with aircall-workspace in any webpage",
   "main": "dist/index.js",
