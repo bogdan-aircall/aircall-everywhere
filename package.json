@@ -1,5 +1,5 @@
 {
-  "name": "aircall-everywhere",
+  "name": "test-aircall-everywhere",
   "version": "2.0.0-beta.0",
   "description": "Library to embed and communicate with aircall-workspace in any webpage",
   "main": "dist/index.js",
@@ -9,8 +9,7 @@
     "build": "webpack --config scripts/webpack/webpack.build.js",
     "prepublishOnly": "./scripts/publish.sh",
     "test": "jest",
-    "test-watch": "jest --watch",
-    "coverage": "jest --coverage"
+    "test-watch": "jest --watch"
   },
   "engines": {
     "node": ">=16.0.0"
